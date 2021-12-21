@@ -10,5 +10,7 @@ package clase1;
  * @author Luis Gonzalo
  */
 public class Constructores {
-    
+    public static void main(String[] args) {
+        System.out.println("Hola Mundo en Git");
+    }
 }
