@@ -14,5 +14,16 @@ public class Persona {
     private String apellido;
     private String nivelEstudio;
     
+    public Persona(String nombre, String apellido, String nivelEstudio){
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.nivelEstudio = nivelEstudio;
+    }
+
+    @Override
+    public String toString() {
+        return "Persona{" + "nombre=" + nombre + ", apellido=" + apellido + ", nivelEstudio=" + nivelEstudio + '}';
+    }
+    
     
 }
